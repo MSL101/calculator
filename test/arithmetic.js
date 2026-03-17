@@ -253,7 +253,7 @@ describe('Arithmetic', function() {
           });
     });
   });
-  describe('Power', function() {
+  describe('pow', function() {
     it('raises a number to a power', function(done) {
       request.get('/arithmetic?operation=pow&operand1=2&operand2=3')
           .expect(200)
